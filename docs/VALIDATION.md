@@ -1,5 +1,7 @@
 # Validation of the first version
 
+Service-image update: inline background paths and navy overlay layering are configured for the four user-supplied JPEG files. Those attachments are not available as files in the checkout yet; image loading and the final photographic appearance remain pending until the images are saved at the documented assets paths. The card layout, computed overlay stacking, hover effect and links are checked separately. Earlier baseline asset checks below predate these four image references.
+
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 
 Passed:

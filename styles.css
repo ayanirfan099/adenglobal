@@ -47,18 +47,43 @@ body { color-scheme: dark; }
 .service-strip a, .service-strip a span { color: var(--gold); }
 .service-strip a:hover { color: #f3dca7; }
 .service-card {
-  background: #1e1f1a;
+  position: relative;
+  isolation: isolate;
+  z-index: 0;
+  background-color: #1e1f1a;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
   border-color: var(--line);
   border-top: 2px solid #a78b50;
 }
+.service-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(10, 15, 30, 0.85), rgba(10, 15, 30, 0.95));
+  opacity: 1;
+  transition: opacity .25s ease;
+}
+.service-card > * {
+  position: relative;
+  z-index: 2;
+}
 .service-card:hover {
-  background: #27271f;
+  background-color: #27271f;
   border-color: var(--gold);
   box-shadow: 0 12px 28px #0002;
 }
+.service-card:hover::before,
+.service-card:focus-within::before {
+  opacity: .88;
+}
 .service-icon, .service-card h3, .card-link, .card-link span { color: var(--gold); }
 .card-number { color: #bbb39f; }
-.service-card p { color: var(--muted); }
+.service-card p { color: #e6e8ef; }
 .card-link { border-color: var(--line); }
 .card-link:hover { color: #f3dca7; }
 .about-section, .faq-section { background: #1c1d18; }
