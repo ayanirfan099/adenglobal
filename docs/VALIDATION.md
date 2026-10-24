@@ -2,7 +2,7 @@
 
 Service card image update: the four original JPEGs from the uploaded ZIP are included at `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Files were visually matched to their services, rather than relying on ZIP entry order, and copied without recompression. The shared navy gradient now uses 0.68/0.84 alpha, with hover opacity 0.90, to reveal more of the images. Mobile/desktop checks use these real assets.
 
-About and logo update: the personal travel photo has been removed from current files and exports. The About quote panel uses the supplied golden globe logo for its background, with MIJ and NUS consultation-contact blocks alongside it and no ownership title. The supplied logo PNG is preserved under `branding/`; `assets/logo.webp` is a web-optimised export used for the website branding. CSS frames the golden globe while the wordmark/tagline remain readable HTML. Screenshots and browser checks are refreshed for this layout.
+About and logo update: the personal travel photo has been removed from current files and exports. The About quote panel uses the supplied golden globe logo for its background, with three matching leadership blocks: MIJ and NUS as Managing Directors, and SK as CEO. The supplied logo PNG is preserved under `branding/`; `assets/logo.webp` is a web-optimised export used for the website branding. CSS frames the golden globe while the wordmark/tagline remain readable HTML. Screenshots and browser checks are refreshed for this layout.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 
@@ -15,8 +15,8 @@ Passed:
 - Required form fields reject whitespace-only input.
 - All four service choices open WhatsApp for +923457777547 with the selected service, name, destination and message.
 - Unicode, ampersands, plus signs, question marks and newlines survive URL encoding.
-- All static WhatsApp links use an approved contact number and a prefilled message. Contact has one call and one WhatsApp link for each of +923457777547 and +923455003104.
-- Click-tested the original seven visible direct WhatsApp links (header, primary contact, floating button and four services), plus the added secondary-contact link: each opens the correct prefilled WhatsApp URL. External navigation was intercepted; no real enquiry was sent.
+- All static WhatsApp links use +923457777547 with a prefilled message. Contact has a single call link and direct WhatsApp link; the additional number was removed at the user’s request.
+- Click-tested the seven visible direct WhatsApp links (header, contact, floating button and four services): each opens the correct prefilled WhatsApp URL. External navigation was intercepted; no real enquiry was sent.
 - No local/session storage or cookies created during the checks.
 - Mobile and desktop axe audits: zero violations, 29 rule passes in each tested state.
 - No-JavaScript state shows a direct WhatsApp link and disables form submission.

@@ -1,3 +1,2 @@
-PASS: 390px — MIJ/NUS consultation blocks, no Owner label or photo reference, About uses logo, no failed assets.
-PASS: 1440px — MIJ/NUS consultation blocks, no Owner label or photo reference, About uses logo, no failed assets.
-PASS: current website no longer includes assets/about-journey.jpg.
+PASS: 390px — MIJ and NUS Managing Directors, SK CEO, logo in About, only original contact number.
+PASS: 1440px — MIJ and NUS Managing Directors, SK CEO, logo in About, only original contact number.

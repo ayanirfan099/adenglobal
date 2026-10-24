@@ -10,7 +10,7 @@ PASS: encoded WhatsApp form enquiry — Visit Visa Consultancy
 PASS: encoded WhatsApp form enquiry — Student Visa Consultancy
 PASS: encoded WhatsApp form enquiry — Group Visits and Tours
 PASS: encoded WhatsApp form enquiry — Five-Star Umrah
-PASS: secondary contact call link and WhatsApp click open the correct number
+PASS: only the original contact number is published
 PASS: WhatsApp links, telephone links and no browser storage/cookies
 PASS: automated WCAG A/AA audit at 390px (29 rule passes)
 PASS: automated WCAG A/AA audit at 1440px (29 rule passes)
