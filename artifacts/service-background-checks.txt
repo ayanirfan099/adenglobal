@@ -1,2 +1,3 @@
-PASS: 390px — all four original JPEGs decode at 1672x941; inline paths, cover/center, overlay layering, hover, links and Services accessibility audit pass.
-PASS: 1440px — all four original JPEGs decode at 1672x941; inline paths, cover/center, overlay layering, hover, links and Services accessibility audit pass.
+PASS: 390px — four service images load, lighter overlays and hover work, About overlay layers correctly, no horizontal overflow, WCAG A/AA audit has no violations.
+PASS: 1440px — four service images load, lighter overlays and hover work, About overlay layers correctly, no horizontal overflow, WCAG A/AA audit has no violations.
+PENDING: assets/about-journey.jpg original photo file; expected 404 is the only failed local asset. About final image/crop not verified.
