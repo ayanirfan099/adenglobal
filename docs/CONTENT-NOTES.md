@@ -10,4 +10,6 @@ The reference tagline includes WORK. The site uses STUDY · TRAVEL · EXPLORE to
 
 The hero is an AI-generated illustrative landscape, not an advertised itinerary or a specific destination. All assets are local; no external fonts or images are requested at runtime.
 
+The requested black-and-gold palette continues through the header, service navigation, service cards, detailed service panels, About, enquiry process, FAQs, contact form and footer. Gold is used for emphasis and calls to action, with warm off-white text for readable body copy. Shared theme variables and overrides are labelled in styles.css.
+
 No owned domain or domain-based email is assumed. Canonical and absolute social image URLs can be added after domain confirmation. No search ranking is promised.

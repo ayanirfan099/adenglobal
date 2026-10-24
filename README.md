@@ -1,6 +1,6 @@
 # ADEN GLOBAL — static business website
 
-Responsive English website: Home, About, four detailed services, enquiry process, FAQs and Contact. Production needs only static shared hosting. No Node server, database, API or build is required.
+Responsive black-and-gold English website: Home, About, four detailed services, enquiry process, FAQs and Contact. Production needs only static shared hosting. No Node server, database, API or build is required.
 
 ## Preview
 

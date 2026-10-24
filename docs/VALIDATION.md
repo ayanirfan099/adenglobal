@@ -18,6 +18,7 @@ Passed:
 - No-JavaScript state shows a direct WhatsApp link and disables form submission.
 - No JavaScript errors or failing local assets in the browser run.
 - Desktop and mobile screenshots visually reviewed.
+- Black-and-gold theme: expanded FAQs on desktop and mobile, plus the open mobile menu, also passed automated WCAG A/AA checks without violations.
 
 The test intercepts WhatsApp navigation. No enquiry was sent, and no message delivery or recipient response is claimed. Actual WhatsApp app handoff depends on the visitor's device, installed app/login and network.
 
