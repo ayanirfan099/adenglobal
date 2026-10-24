@@ -91,6 +91,9 @@ body { color-scheme: dark; }
 .card-link:hover { color: #f3dca7; }
 .about-section, .faq-section { background: #1c1d18; }
 .about-art {
+  min-height: 560px;
+  justify-content: flex-end;
+  padding-bottom: 110px;
   background-color: #11120f;
   background-size: cover;
   background-position: center;
@@ -154,5 +157,40 @@ summary:hover, details[open] summary { color: #edcf90; }
 .floating-whatsapp { background: #191a15; color: #f1ece1; border-color: var(--gold); }
 .floating-whatsapp svg { color: var(--gold); }
 .floating-whatsapp:hover { background: #333020; }
+/* Frame the supplied globe in CSS; keep the original logo artwork intact. */
+.brand-emblem {
+  display: inline-block;
+  position: relative;
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #031127;
+  border: 1px solid #756038;
+}
+.header .brand-emblem > img,
+.footer .brand-emblem > img,
+.about-art .brand-emblem > img {
+  position: absolute;
+  width: 227.556%;
+  height: 227.556%;
+  max-width: none;
+  left: -61.111%;
+  top: -27.778%;
+}
+.footer .brand-emblem { width: 43px; height: 43px; }
+.about-art .about-emblem {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 78px;
+  height: 78px;
+  opacity: .3;
+  z-index: 2;
+}
+@media(max-width:1100px){.header .brand-emblem{width:50px;height:50px}}
+@media(max-width:560px){.header .brand-emblem{width:43px;height:43px}.about-art{min-height:480px;padding-bottom:105px}.about-art p{font-size:36px}.about-art .about-emblem{width:60px;height:60px;top:18px;right:18px}}
+@media(max-width:370px){.header .brand-emblem{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.utility,.header,.floating-whatsapp,.hero-actions,.enquiry-form,.footer nav{display:none}.hero{min-height:0;background:white;color:var(--ink)}.hero-image,.hero-caption,.hero:after{display:none}.hero h1 em,.hero-intro,.hero-note,.hero-note strong{color:var(--ink)}.section{padding:25px 0}.container{width:100%}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid,.faq-grid{display:block}.about-art{display:none}.process-section{background:white;color:var(--ink)}.process-grid p,.process-section .section-heading>p,.process-footnote{color:var(--ink)}details>p{display:block}.service-detail{break-inside:avoid}.footer{background:white;color:var(--ink);padding:20px 0}}

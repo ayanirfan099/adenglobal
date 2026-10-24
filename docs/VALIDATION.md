@@ -2,7 +2,7 @@
 
 Service card image update: the four original JPEGs from the uploaded ZIP are included at `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Files were visually matched to their services, rather than relying on ZIP entry order, and copied without recompression. The shared navy gradient now uses 0.68/0.84 alpha, with hover opacity 0.90, to reveal more of the images. Mobile/desktop checks use these real assets.
 
-About photo update: `assets/about-journey.jpg` is configured as the quote panel background with its own readable overlay. This newly attached photo is visible in chat but is not yet provided as a downloadable file in the workspace. Its loading, crop and final photographic appearance remain pending. The panel has a dark fallback. Save the original photo at this path and regenerate exports to include it.
+About photo and logo update: the original travel photo is now included at `assets/about-journey.jpg`. The supplied logo PNG is preserved under `branding/`; `assets/logo.webp` is a web-optimised export used for the website branding. CSS frames the golden globe while the wordmark/tagline remain readable HTML. Both new website assets are included in the hosting ZIP and embedded in the standalone preview. Screenshots and browser checks are refreshed with the actual uploaded files.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 

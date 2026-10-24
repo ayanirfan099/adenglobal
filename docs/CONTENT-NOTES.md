@@ -6,11 +6,13 @@ Not published: reference-card email, exact office address, social accounts, doma
 
 The site describes discussion topics, not promised availability or outcomes. Quotation scope, third-party charges, inclusions and cancellation terms must be confirmed before a commitment. No response time is promised.
 
-The reference tagline includes WORK. The site uses STUDY · TRAVEL · EXPLORE to match the service scope. The SVG globe is a new interpretation of the reference; an exact original logo can replace it later.
+The supplied logo artwork includes WORK in its tagline. The website frames its golden globe in CSS and uses the existing HTML wordmark with STUDY · TRAVEL · EXPLORE to match the authorised service scope. The original artwork is preserved unchanged in `branding/logo-original.png`; the web version is a web-optimised WebP export. The SVG remains only as a lightweight favicon.
 
 The hero is an AI-generated illustrative landscape, not an advertised itinerary or a specific destination. All assets are local; no external fonts or images are requested at runtime.
 
 The four service-card JPEGs are the original files supplied by the user in the uploaded ZIP. They are illustrative backgrounds, not a promise of a specific airport, institution, accommodation or package. The images are assigned by their visible content: airport, library, terrace and Makkah scene.
+
+The About panel uses the additional user-supplied personal travel photo, copied without recompression as `assets/about-journey.jpg`. It does not add claims about qualifications, partnerships or previous consultancy experience.
 
 The requested black-and-gold palette continues through the header, service navigation, service cards, detailed service panels, About, enquiry process, FAQs, contact form and footer. Gold is used for emphasis and calls to action, with warm off-white text for readable body copy. Shared theme variables and overrides are labelled in styles.css.
 

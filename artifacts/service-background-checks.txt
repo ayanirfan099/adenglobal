@@ -1,3 +1,2 @@
-PASS: 390px — four service images load, lighter overlays and hover work, About overlay layers correctly, no horizontal overflow, WCAG A/AA audit has no violations.
-PASS: 1440px — four service images load, lighter overlays and hover work, About overlay layers correctly, no horizontal overflow, WCAG A/AA audit has no violations.
-PENDING: assets/about-journey.jpg original photo file; expected 404 is the only failed local asset. About final image/crop not verified.
+PASS: 390px — About photo, new logo and all four service JPEGs decode; header/footer logo framing, service overlays and hover work; no failed assets.
+PASS: 1440px — About photo, new logo and all four service JPEGs decode; header/footer logo framing, service overlays and hover work; no failed assets.

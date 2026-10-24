@@ -11,10 +11,10 @@ Open `index.html` directly, or run `python3 -m http.server 8000 --bind 0.0.0.0` 
 - `index.html`: English copy, services, FAQ answers, metadata and visible contact details.
 - `styles.css`: palette variables at the top, typography and responsive layout.
 - `script.js`: WhatsApp number, message formatting and mobile navigation.
-- `assets/mark.svg`: new globe mark inspired by the reference; not an extracted original logo.
+- `assets/logo.webp`: web-optimised WebP of the user's supplied logo. CSS frames its globe for header/footer use beside readable HTML branding. The untouched original PNG is preserved at `branding/logo-original.png` and included in the complete source ZIP. `assets/mark.svg` remains the lightweight favicon.
 - `assets/journey.webp`: generated illustrative landscape, not a promised destination or package.
 - All four supplied service images are included: airport → `assets/visit-visa.jpg`, library → `assets/student-visa.jpg`, terrace → `assets/group-tours.jpg`, and Makkah scene → `assets/umrah.jpg`. Cards use inline backgrounds with the shared `service-card--image` navy overlay and hover treatment. Run `python3 scripts/package.py` after replacing images; it includes the referenced JPEGs in both ZIPs and embeds them in the standalone preview, reporting any missing files.
-- About quote panel: save the supplied personal travel photo as `assets/about-journey.jpg`. Its background path and overlay are configured; the image file is pending. The dark fallback remains until the file is supplied. The packaging script also includes/embeds this image once present.
+- About quote panel: the user's supplied travel photo is included as `assets/about-journey.jpg`, with a navy overlay and gold/white quote. The packaging script includes it in both ZIPs and embeds it in the standalone preview.
 - `docs/DEPLOYMENT.md`: Roman Urdu upload instructions and launch checklist.
 - `docs/VALIDATION.md`: test scope and limitations.
 
