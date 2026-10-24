@@ -1,3 +1,4 @@
-PASS: 390px — only Student Visa has the image modifier, correct inline path, exact gradient, isolated negative overlay, content at z-index 2, hover and working service link. Other cards retain plain backgrounds.
-PASS: 1440px — only Student Visa has the image modifier, correct inline path, exact gradient, isolated negative overlay, content at z-index 2, hover and working service link. Other cards retain plain backgrounds.
-PENDING: save the supplied library image as assets/student-visa.jpg; final image loading and appearance cannot be verified until the file is present.
+PASS: 390px — Visit and Student Visa paths, shared overlay layering, hover, links and layout.
+PASS: 1440px — Visit and Student Visa paths, shared overlay layering, hover, links and layout.
+PENDING: save supplied image as assets/visit-visa.jpg
+PENDING: save supplied image as assets/student-visa.jpg

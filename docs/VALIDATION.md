@@ -1,6 +1,6 @@
 # Validation of the first version
 
-Student-first image update: only the Student Visa card currently references `assets/student-visa.jpg` and uses the `service-card--image` modifier. Its inline background, navy overlay and hover effect are configured. The supplied library image is not available as a file in the checkout yet, so loading and final photographic appearance remain pending until it is saved at that path. The other three cards keep plain black-and-gold backgrounds. Earlier baseline asset checks below predate the image reference.
+Visa card image update: Visit Visa references `assets/visit-visa.jpg` and Student Visa references `assets/student-visa.jpg`. Both use the shared `service-card--image` modifier with the exact navy gradient and hover treatment. The supplied images are not available as files in the checkout yet, so final image loading and appearance remain pending until they are saved at those paths. Group Tours and Umrah keep plain black-and-gold backgrounds. Earlier baseline asset checks below predate these image references.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 
