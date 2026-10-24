@@ -1,7 +1,2 @@
-PASS: 390px — all four inline paths, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover and service links.
-PASS: 1440px — all four inline paths, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover and service links.
-PENDING: assets/visit-visa.jpg
-PENDING: assets/student-visa.jpg
-PENDING: assets/group-tours.jpg
-PENDING: assets/umrah.jpg
-Final photographic appearance requires the supplied JPEG files.
+PASS: 390px — all four original JPEGs decode at 1672x941; inline paths, cover/center, overlay layering, hover, links and Services accessibility audit pass.
+PASS: 1440px — all four original JPEGs decode at 1672x941; inline paths, cover/center, overlay layering, hover, links and Services accessibility audit pass.

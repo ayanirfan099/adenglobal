@@ -1,6 +1,6 @@
 # Validation of the first version
 
-Service card image update: all four cards reference their inline JPEG backgrounds: `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Each uses the shared `service-card--image` modifier with the exact navy gradient and hover treatment. These supplied JPEGs are not yet available as files in the checkout, so final image loading and photographic appearance remain pending until they are saved at those paths. Earlier baseline asset checks below predate these image references.
+Service card image update: the four original JPEGs from the uploaded ZIP are now included at `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Files were visually matched to their services, rather than relying on ZIP entry order, and copied without recompression. Each card uses the shared `service-card--image` modifier with the exact navy gradient and hover treatment. Mobile/desktop checks and reports have been refreshed with the real supplied assets.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 

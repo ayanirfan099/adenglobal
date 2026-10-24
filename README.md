@@ -13,7 +13,7 @@ Open `index.html` directly, or run `python3 -m http.server 8000 --bind 0.0.0.0` 
 - `script.js`: WhatsApp number, message formatting and mobile navigation.
 - `assets/mark.svg`: new globe mark inspired by the reference; not an extracted original logo.
 - `assets/journey.webp`: generated illustrative landscape, not a promised destination or package.
-- All four service cards use inline image backgrounds with the shared `service-card--image` navy overlay and hover treatment. Save the supplied images as `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Run `python3 scripts/package.py` after saving images; it includes the referenced JPEGs in both ZIPs and embeds them in the standalone preview, reporting any missing files.
+- All four supplied service images are included: airport → `assets/visit-visa.jpg`, library → `assets/student-visa.jpg`, terrace → `assets/group-tours.jpg`, and Makkah scene → `assets/umrah.jpg`. Cards use inline backgrounds with the shared `service-card--image` navy overlay and hover treatment. Run `python3 scripts/package.py` after replacing images; it includes the referenced JPEGs in both ZIPs and embeds them in the standalone preview, reporting any missing files.
 - `docs/DEPLOYMENT.md`: Roman Urdu upload instructions and launch checklist.
 - `docs/VALIDATION.md`: test scope and limitations.
 
