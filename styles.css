@@ -115,6 +115,9 @@ body { color-scheme: dark; }
 .art-bottom { border-color: var(--line); }
 .orbit { border-color: #4b432e; }
 .founder-monogram { color: var(--gold); border-color: #8a7547; }
+.founder-monogram { flex-shrink: 0; }
+.consultation-team { display: grid; gap: 18px; margin: 27px 0; }
+.consultation-team .founder { margin: 0; }
 .founder small { color: var(--muted); }
 .service-detail h3 { color: var(--gold); }
 .detail-support { background: var(--surface); border-left: 2px solid #a78b50; }
@@ -182,15 +185,19 @@ summary:hover, details[open] summary { color: #edcf90; }
 .footer .brand-emblem { width: 43px; height: 43px; }
 .about-art .about-emblem {
   position: absolute;
-  top: 22px;
-  right: 22px;
-  width: 78px;
-  height: 78px;
-  opacity: .3;
-  z-index: 2;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border: 0;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  z-index: -2;
 }
 @media(max-width:1100px){.header .brand-emblem{width:50px;height:50px}}
-@media(max-width:560px){.header .brand-emblem{width:43px;height:43px}.about-art{min-height:480px;padding-bottom:105px}.about-art p{font-size:36px}.about-art .about-emblem{width:60px;height:60px;top:18px;right:18px}}
+@media(max-width:560px){.header .brand-emblem{width:43px;height:43px}.about-art{min-height:480px;padding-bottom:105px}.about-art p{font-size:36px}}
 @media(max-width:370px){.header .brand-emblem{width:34px;height:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 @media print{.utility,.header,.floating-whatsapp,.hero-actions,.enquiry-form,.footer nav{display:none}.hero{min-height:0;background:white;color:var(--ink)}.hero-image,.hero-caption,.hero:after{display:none}.hero h1 em,.hero-intro,.hero-note,.hero-note strong{color:var(--ink)}.section{padding:25px 0}.container{width:100%}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.contact-grid,.faq-grid{display:block}.about-art{display:none}.process-section{background:white;color:var(--ink)}.process-grid p,.process-section .section-heading>p,.process-footnote{color:var(--ink)}details>p{display:block}.service-detail{break-inside:avoid}.footer{background:white;color:var(--ink);padding:20px 0}}

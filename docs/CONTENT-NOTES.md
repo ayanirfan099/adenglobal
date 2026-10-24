@@ -1,6 +1,6 @@
 # Content notes
 
-Confirmed: ADEN GLOBAL, owner/contact Muhammad Imran Jamal, Pakistan-based consultancy, primary phone/WhatsApp +923457777547, additional phone/WhatsApp +923455003104, and the four specified services. The enquiry form and floating WhatsApp button use the primary number; Contact includes call and WhatsApp links for both numbers.
+Confirmed: ADEN GLOBAL, consultation contacts Muhammad Imran Jamal and Najam Us Saqib, Pakistan-based consultancy, primary phone/WhatsApp +923457777547, additional phone/WhatsApp +923455003104, and the four specified services. The enquiry form and floating WhatsApp button use the primary number; Contact includes call and WhatsApp links for both numbers.
 
 Not published: reference-card email, exact office address, social accounts, domain ownership, career tenure, testimonials, success rates, accreditations, partnerships, work visa services, prices, hotel names or visa guarantees.
 
@@ -12,7 +12,7 @@ The hero is an AI-generated illustrative landscape, not an advertised itinerary 
 
 The four service-card JPEGs are the original files supplied by the user in the uploaded ZIP. They are illustrative backgrounds, not a promise of a specific airport, institution, accommodation or package. The images are assigned by their visible content: airport, library, terrace and Makkah scene.
 
-The About panel uses the additional user-supplied personal travel photo, copied without recompression as `assets/about-journey.jpg`. It does not add claims about qualifications, partnerships or previous consultancy experience.
+The About panel currently uses the supplied golden globe logo instead of the personal travel photo. The personal photo was removed from the current website files and exports at the user's request. Muhammad Imran Jamal (MIJ) and Najam Us Saqib (NUS) have matching consultation-contact blocks; no ownership or other business title is displayed.
 
 The requested black-and-gold palette continues through the header, service navigation, service cards, detailed service panels, About, enquiry process, FAQs, contact form and footer. Gold is used for emphasis and calls to action, with warm off-white text for readable body copy. Shared theme variables and overrides are labelled in styles.css.
 

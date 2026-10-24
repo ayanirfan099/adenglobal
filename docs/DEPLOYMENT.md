@@ -24,7 +24,7 @@ Copy, services, FAQs aur visible contact `index.html` mein; rang `styles.css` ke
 ## Launch se pehle missing details
 
 - Final domain aur hosting document root.
-- Naya supplied logo aur About photo ab shamil hain. Original logo `branding/logo-original.png` mein preserved hai; hosting ke liye optimised `assets/logo.webp` use hota hai.
+- Naya supplied logo header, footer aur About panel mein shamil hai. Original logo `branding/logo-original.png` mein preserved hai; hosting ke liye optimised `assets/logo.webp` use hota hai. Personal photo current website se hata di gayi hai.
 - Har service ka final scope aur available destinations.
 - Consultation fees, timings, quotation process aur cancellation/refund terms.
 - Umrah ke actual arrangements, ratings, inclusions aur applicable authorisations ki tasdeeq; website par kisi hotel ya authorisation ka daawa nahi.

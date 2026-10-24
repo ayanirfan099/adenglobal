@@ -1,2 +1,3 @@
-PASS: 390px — About photo, new logo and all four service JPEGs decode; header/footer logo framing, service overlays and hover work; no failed assets.
-PASS: 1440px — About photo, new logo and all four service JPEGs decode; header/footer logo framing, service overlays and hover work; no failed assets.
+PASS: 390px — MIJ/NUS consultation blocks, no Owner label or photo reference, About uses logo, no failed assets.
+PASS: 1440px — MIJ/NUS consultation blocks, no Owner label or photo reference, About uses logo, no failed assets.
+PASS: current website no longer includes assets/about-journey.jpg.
