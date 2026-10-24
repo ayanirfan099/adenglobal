@@ -112,6 +112,11 @@ summary:hover, details[open] summary { color: #edcf90; }
 .faq-list details p { color: #cbc5b9; }
 .contact-phone, .contact-phone span, .contact-tip > span { color: var(--gold); }
 .contact-meta, .contact-tip p { color: var(--muted); }
+.contact-channel + .contact-channel {
+  margin-top: 26px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
 .enquiry-form { background: #1e1f1a; border-color: #71603b; }
 .enquiry-form h3 { color: #edcf90; }
 .form-intro, .field label span, .form-privacy, .form-explainer { color: var(--muted); }

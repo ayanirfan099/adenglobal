@@ -71,10 +71,22 @@ fs.mkdirSync(out, { recursive: true });
     }
     for (const link of await page.locator('a[href^="https://wa.me/"]').all()) {
       const url = new URL(await link.getAttribute('href'));
-      assert.equal(url.pathname, '/923457777547');
+      assert.ok(['/923457777547', '/923455003104'].includes(url.pathname));
       assert.ok(url.searchParams.get('text'));
     }
     assert.equal(await page.locator('a[href="tel:+923457777547"]').count(), 1);
+    assert.equal(await page.locator('a[href="tel:+923455003104"]').count(), 1);
+    const secondary = page.locator('#contact a[href^="https://wa.me/923455003104?"]');
+    const secondaryPopup = page.waitForEvent('popup');
+    await secondary.click();
+    const secondaryTab = await secondaryPopup;
+    await secondaryTab.waitForLoadState();
+    const secondaryURL = new URL(secondaryTab.url());
+    assert.equal(secondaryURL.hostname, 'wa.me');
+    assert.equal(secondaryURL.pathname, '/923455003104');
+    assert.ok(secondaryURL.searchParams.get('text').includes('ADEN GLOBAL'));
+    await secondaryTab.close();
+    results.push('PASS: secondary contact call link and WhatsApp click open the correct number');
     assert.equal(await page.evaluate(() => localStorage.length + sessionStorage.length), 0);
     assert.equal(await context.cookies().then(c => c.length), 0);
     results.push('PASS: WhatsApp links, telephone links and no browser storage/cookies');

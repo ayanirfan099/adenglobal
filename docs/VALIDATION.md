@@ -13,8 +13,8 @@ Passed:
 - Required form fields reject whitespace-only input.
 - All four service choices open WhatsApp for +923457777547 with the selected service, name, destination and message.
 - Unicode, ampersands, plus signs, question marks and newlines survive URL encoding.
-- All static WhatsApp links have the correct number and a prefilled message; the contact telephone link has the correct number.
-- Click-tested all seven visible direct WhatsApp links (header, contact, floating button and four services): each opens the correct prefilled WhatsApp URL. External navigation was intercepted; no real enquiry was sent.
+- All static WhatsApp links use an approved contact number and a prefilled message. Contact has one call and one WhatsApp link for each of +923457777547 and +923455003104.
+- Click-tested the original seven visible direct WhatsApp links (header, primary contact, floating button and four services), plus the added secondary-contact link: each opens the correct prefilled WhatsApp URL. External navigation was intercepted; no real enquiry was sent.
 - No local/session storage or cookies created during the checks.
 - Mobile and desktop axe audits: zero violations, 29 rule passes in each tested state.
 - No-JavaScript state shows a direct WhatsApp link and disables form submission.

@@ -1,6 +1,6 @@
 # Content notes
 
-Confirmed: ADEN GLOBAL, owner/contact Muhammad Imran Jamal, Pakistan-based consultancy, phone/WhatsApp +923457777547 and the four specified services.
+Confirmed: ADEN GLOBAL, owner/contact Muhammad Imran Jamal, Pakistan-based consultancy, primary phone/WhatsApp +923457777547, additional phone/WhatsApp +923455003104, and the four specified services. The enquiry form and floating WhatsApp button use the primary number; Contact includes call and WhatsApp links for both numbers.
 
 Not published: reference-card email, exact office address, social accounts, domain ownership, career tenure, testimonials, success rates, accreditations, partnerships, work visa services, prices, hotel names or visa guarantees.
 

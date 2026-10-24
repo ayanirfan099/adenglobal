@@ -17,7 +17,7 @@ Open `index.html` directly, or run `python3 -m http.server 8000 --bind 0.0.0.0` 
 - `docs/DEPLOYMENT.md`: Roman Urdu upload instructions and launch checklist.
 - `docs/VALIDATION.md`: test scope and limitations.
 
-If changing the phone, update every `tel:` and `wa.me` link in HTML as well as `WHATSAPP_NUMBER` in JavaScript and the test expectations. No domain ownership is assumed. Add canonical and absolute social image metadata only after confirming the domain.
+Contact has call and WhatsApp links for +923457777547 and +923455003104. The form, service buttons and floating chat use the primary number (+923457777547). If changing a number, update its matching `tel:` and `wa.me` links in HTML; if changing the form destination, also update `WHATSAPP_NUMBER` in JavaScript and the test expectations. No domain ownership is assumed. Add canonical and absolute social image metadata only after confirming the domain.
 
 ## Enquiries
 
