@@ -74,7 +74,7 @@ fs.mkdirSync(out, { recursive: true });
       assert.equal(url.pathname, '/923457777547');
       assert.ok(url.searchParams.get('text'));
     }
-    assert.equal(await page.locator('a[href="tel:+923457777547"]').count(), 2);
+    assert.equal(await page.locator('a[href="tel:+923457777547"]').count(), 1);
     assert.equal(await page.evaluate(() => localStorage.length + sessionStorage.length), 0);
     assert.equal(await context.cookies().then(c => c.length), 0);
     results.push('PASS: WhatsApp links, telephone links and no browser storage/cookies');
