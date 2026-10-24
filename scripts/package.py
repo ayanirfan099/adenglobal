@@ -1,5 +1,6 @@
 """Create the minimal hosting ZIP and a self-contained offline preview."""
 import base64
+import re
 from pathlib import Path
 import zipfile
 
@@ -7,7 +8,7 @@ root = Path(__file__).resolve().parent.parent
 out = root / 'artifacts'
 out.mkdir(exist_ok=True)
 files = ['index.html', 'styles.css', 'script.js', 'assets/mark.svg', 'assets/journey.webp']
-service_images = ['assets/visit-visa.jpg', 'assets/student-visa.jpg', 'assets/group-tours.jpg', 'assets/umrah.jpg']
+service_images = list(dict.fromkeys(re.findall(r"assets/(?:visit-visa|student-visa|group-tours|umrah)\.jpg", (root / 'index.html').read_text())))
 missing_images = [name for name in service_images if not (root / name).is_file()]
 files += [name for name in service_images if (root / name).is_file()]
 with zipfile.ZipFile(out / 'adenglobal-shared-hosting.zip', 'w', zipfile.ZIP_DEFLATED) as archive:

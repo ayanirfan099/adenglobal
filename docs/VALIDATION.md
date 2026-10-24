@@ -1,6 +1,6 @@
 # Validation of the first version
 
-Service-image update: inline background paths and navy overlay layering are configured for the four user-supplied JPEG files. Those attachments are not available as files in the checkout yet; image loading and the final photographic appearance remain pending until the images are saved at the documented assets paths. The card layout, computed overlay stacking, hover effect and links are checked separately. Earlier baseline asset checks below predate these four image references.
+Student-first image update: only the Student Visa card currently references `assets/student-visa.jpg` and uses the `service-card--image` modifier. Its inline background, navy overlay and hover effect are configured. The supplied library image is not available as a file in the checkout yet, so loading and final photographic appearance remain pending until it is saved at that path. The other three cards keep plain black-and-gold backgrounds. Earlier baseline asset checks below predate the image reference.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 

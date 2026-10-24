@@ -1,8 +1,3 @@
-PASS: 390px inline image order, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover opacity and all four links
-PASS: 1440px inline image order, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover opacity and all four links
-PENDING: user image file assets/visit-visa.jpg
-PENDING: user image file assets/student-visa.jpg
-PENDING: user image file assets/group-tours.jpg
-PENDING: user image file assets/umrah.jpg
-PASS: isolated packaging fixture includes all four image assets in both ZIPs and embeds them in the standalone preview when supplied.
-NOT RUN: final supplied-photo appearance and contrast; four JPEG files are pending.
+PASS: 390px — only Student Visa has the image modifier, correct inline path, exact gradient, isolated negative overlay, content at z-index 2, hover and working service link. Other cards retain plain backgrounds.
+PASS: 1440px — only Student Visa has the image modifier, correct inline path, exact gradient, isolated negative overlay, content at z-index 2, hover and working service link. Other cards retain plain backgrounds.
+PENDING: save the supplied library image as assets/student-visa.jpg; final image loading and appearance cannot be verified until the file is present.

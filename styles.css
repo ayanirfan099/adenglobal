@@ -47,18 +47,21 @@ body { color-scheme: dark; }
 .service-strip a, .service-strip a span { color: var(--gold); }
 .service-strip a:hover { color: #f3dca7; }
 .service-card {
+  background-color: #1e1f1a;
+  border-color: var(--line);
+  border-top: 2px solid #a78b50;
+}
+/* Student Visa is the first image card. Reuse this modifier for future cards. */
+.service-card--image {
   position: relative;
   isolation: isolate;
   z-index: 0;
-  background-color: #1e1f1a;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
-  border-color: var(--line);
-  border-top: 2px solid #a78b50;
 }
-.service-card::before {
+.service-card--image::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -68,7 +71,7 @@ body { color-scheme: dark; }
   opacity: 1;
   transition: opacity .25s ease;
 }
-.service-card > * {
+.service-card--image > * {
   position: relative;
   z-index: 2;
 }
@@ -77,8 +80,8 @@ body { color-scheme: dark; }
   border-color: var(--gold);
   box-shadow: 0 12px 28px #0002;
 }
-.service-card:hover::before,
-.service-card:focus-within::before {
+.service-card--image:hover::before,
+.service-card--image:focus-within::before {
   opacity: .88;
 }
 .service-icon, .service-card h3, .card-link, .card-link span { color: var(--gold); }
