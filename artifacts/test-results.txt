@@ -1,0 +1,17 @@
+PASS: 320px layout, sections and internal links
+PASS: 375px layout, sections and internal links
+PASS: 390px layout, sections and internal links
+PASS: 768px layout, sections and internal links
+PASS: 1024px layout, sections and internal links
+PASS: 1440px layout, sections and internal links
+PASS: mobile menu, Escape, focus return and section navigation
+PASS: FAQ disclosure opens
+PASS: encoded WhatsApp form enquiry — Visit Visa Consultancy
+PASS: encoded WhatsApp form enquiry — Student Visa Consultancy
+PASS: encoded WhatsApp form enquiry — Group Visits and Tours
+PASS: encoded WhatsApp form enquiry — Five-Star Umrah
+PASS: WhatsApp links, telephone links and no browser storage/cookies
+PASS: automated WCAG A/AA audit at 390px (29 rule passes)
+PASS: automated WCAG A/AA audit at 1440px (29 rule passes)
+PASS: no-JavaScript direct WhatsApp fallback
+PASS: no JavaScript errors or failed local resources

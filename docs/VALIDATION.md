@@ -1,0 +1,27 @@
+# Validation of the first version
+
+Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
+
+Passed:
+
+- Responsive layout at 320, 375, 390, 768, 1024 and 1440 CSS pixels, without horizontal page overflow.
+- All nine principal section targets and every internal anchor resolve.
+- Mobile menu opens, closes on navigation and Escape, and restores focus on Escape.
+- FAQ disclosure opens; native details/summary elements support keyboard use.
+- Required form fields reject whitespace-only input.
+- All four service choices open WhatsApp for +923457777547 with the selected service, name, destination and message.
+- Unicode, ampersands, plus signs, question marks and newlines survive URL encoding.
+- All static WhatsApp links have the correct number and a prefilled message; both telephone links have the correct number.
+- No local/session storage or cookies created during the checks.
+- Mobile and desktop axe audits: zero violations, 29 rule passes in each tested state.
+- No-JavaScript state shows a direct WhatsApp link and disables form submission.
+- No JavaScript errors or failing local assets in the browser run.
+- Desktop and mobile screenshots visually reviewed.
+
+The test intercepts WhatsApp navigation. No enquiry was sent, and no message delivery or recipient response is claimed. Actual WhatsApp app handoff depends on the visitor's device, installed app/login and network.
+
+Production hosting, DNS, HTTPS, real-device iOS/Android behaviour, Safari, Firefox, search indexing, social sharing previews and independent screen-reader review have not been tested. No live domain was connected or published. Metadata includes a descriptive title, description, language, viewport and Open Graph text; domain-specific canonical and social image URLs await a confirmed domain.
+
+Screenshots and the exact automated results are in `artifacts/`. Regenerate them after content/layout changes.
+
+Packaging: ZIP integrity and exact root file list passed. Extracted hosting files were served from an independent directory and browser-checked successfully. The standalone preview was served and checked with working scripts, no asset errors and only one HTTP request (all assets embedded). Opening file:// URLs is blocked by the managed environment's browser policy, so direct offline opening could not be tested here; no browser policy was changed.
