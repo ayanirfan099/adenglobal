@@ -24,7 +24,7 @@ document.addEventListener('keydown', event => {
 document.addEventListener('click', event => {
   if (!event.target.closest('.header')) closeMenu();
 });
-window.matchMedia('(min-width: 801px)').addEventListener('change', closeMenu);
+window.matchMedia('(min-width: 1001px)').addEventListener('change', closeMenu);
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const form = document.querySelector('#enquiry-form');
