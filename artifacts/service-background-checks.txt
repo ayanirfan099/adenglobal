@@ -1,4 +1,7 @@
-PASS: 390px — Visit and Student Visa paths, shared overlay layering, hover, links and layout.
-PASS: 1440px — Visit and Student Visa paths, shared overlay layering, hover, links and layout.
-PENDING: save supplied image as assets/visit-visa.jpg
-PENDING: save supplied image as assets/student-visa.jpg
+PASS: 390px — all four inline paths, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover and service links.
+PASS: 1440px — all four inline paths, cover/center, clipping, isolated overlay z-index -1, content z-index 2, hover and service links.
+PENDING: assets/visit-visa.jpg
+PENDING: assets/student-visa.jpg
+PENDING: assets/group-tours.jpg
+PENDING: assets/umrah.jpg
+Final photographic appearance requires the supplied JPEG files.

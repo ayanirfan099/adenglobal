@@ -1,6 +1,6 @@
 # Validation of the first version
 
-Visa card image update: Visit Visa references `assets/visit-visa.jpg` and Student Visa references `assets/student-visa.jpg`. Both use the shared `service-card--image` modifier with the exact navy gradient and hover treatment. The supplied images are not available as files in the checkout yet, so final image loading and appearance remain pending until they are saved at those paths. Group Tours and Umrah keep plain black-and-gold backgrounds. Earlier baseline asset checks below predate these image references.
+Service card image update: all four cards reference their inline JPEG backgrounds: `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Each uses the shared `service-card--image` modifier with the exact navy gradient and hover treatment. These supplied JPEGs are not yet available as files in the checkout, so final image loading and photographic appearance remain pending until they are saved at those paths. Earlier baseline asset checks below predate these image references.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 

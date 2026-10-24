@@ -51,7 +51,7 @@ body { color-scheme: dark; }
   border-color: var(--line);
   border-top: 2px solid #a78b50;
 }
-/* Visit and Student Visa image cards share this overlay and hover treatment. */
+/* All four service image cards share this overlay and hover treatment. */
 .service-card--image {
   position: relative;
   isolation: isolate;
