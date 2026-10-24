@@ -2,7 +2,7 @@
 
 Service card image update: the four original JPEGs from the uploaded ZIP are included at `assets/visit-visa.jpg`, `assets/student-visa.jpg`, `assets/group-tours.jpg`, and `assets/umrah.jpg`. Files were visually matched to their services, rather than relying on ZIP entry order, and copied without recompression. The shared navy gradient now uses 0.68/0.84 alpha, with hover opacity 0.90, to reveal more of the images. Mobile/desktop checks use these real assets.
 
-About and logo update: the personal travel photo has been removed from current files and exports. The About quote panel uses the supplied golden globe logo for its background, with three matching leadership blocks: MIJ and NUS as Managing Directors, and SK as CEO. The supplied logo PNG is preserved under `branding/`; `assets/logo.webp` is a web-optimised export used for the website branding. CSS frames the golden globe while the wordmark/tagline remain readable HTML. Screenshots and browser checks are refreshed for this layout.
+About and logo update: the personal travel photo has been removed from current files and exports. The About quote panel uses the supplied golden globe logo for its background, with three matching leadership blocks ordered as SK (CEO), NUS (Managing Director), then MIJ (Managing Director). The supplied logo PNG is preserved under `branding/`; `assets/logo.webp` is a web-optimised export used for the website branding. CSS frames the golden globe while the wordmark/tagline remain readable HTML. Screenshots and browser checks are refreshed for this layout.
 
 Browser: installed Chromium, controlled with Playwright. Automated accessibility: axe-core, WCAG 2 A/AA and 2.1 AA tags. This is a useful baseline, not a full accessibility certification.
 

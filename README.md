@@ -14,7 +14,7 @@ Open `index.html` directly, or run `python3 -m http.server 8000 --bind 0.0.0.0` 
 - `assets/logo.webp`: web-optimised WebP of the user's supplied logo. CSS frames its globe for header/footer use beside readable HTML branding. The untouched original PNG is preserved at `branding/logo-original.png` and included in the complete source ZIP. `assets/mark.svg` remains the lightweight favicon.
 - `assets/journey.webp`: generated illustrative landscape, not a promised destination or package.
 - All four supplied service images are included: airport → `assets/visit-visa.jpg`, library → `assets/student-visa.jpg`, terrace → `assets/group-tours.jpg`, and Makkah scene → `assets/umrah.jpg`. Cards use inline backgrounds with the shared `service-card--image` navy overlay and hover treatment. Run `python3 scripts/package.py` after replacing images; it includes the referenced JPEGs in both ZIPs and embeds them in the standalone preview, reporting any missing files.
-- About quote panel: the supplied golden globe logo is the background behind the navy overlay and gold/white quote. The personal photo has been removed from the current website and exports. Matching leadership blocks show Muhammad Imran Jamal (MIJ) and Najam Us Saqib (NUS) as Managing Directors, followed by Suleman Khan (SK) as CEO.
+- About quote panel: the supplied golden globe logo is the background behind the navy overlay and gold/white quote. The personal photo has been removed from the current website and exports. Leadership blocks appear in this order: Suleman Khan (SK), CEO; Najam Us Saqib (NUS), Managing Director; Muhammad Imran Jamal (MIJ), Managing Director.
 - `docs/DEPLOYMENT.md`: Roman Urdu upload instructions and launch checklist.
 - `docs/VALIDATION.md`: test scope and limitations.
 
