@@ -1,6 +1,11 @@
 # ADEN GLOBAL — static business website
 
-Responsive black-and-gold English website: Home, About, four detailed services, enquiry process, FAQs and Contact. Production needs only static shared hosting. No Node server, database, API or build is required.
+Client project, as confirmed by the repository owner. Responsive black-and-gold English website: Home, About, four detailed services, enquiry process, FAQs and Contact. Production needs only static shared hosting. No Node server, database, API or build is required.
+
+
+
+![Existing desktop preview of the ADEN GLOBAL client website](artifacts/desktop-preview.png)
+
 
 ## Preview
 
@@ -38,3 +43,7 @@ AXE_CORE_PATH=/tmp/aden-tools/node_modules/axe-core/axe.min.js node scripts/veri
 ```
 
 Tests intercept WhatsApp navigation and never send a real message. Reports and screenshots go into `artifacts/`. Test tools are not production dependencies.
+
+## Rights and client boundaries
+
+Client branding, names, contact details and supplied imagery remain subject to their respective rights. Public source availability does not grant permission to reuse the client identity or assets. No blanket license is added. Confirm asset permissions and client approval before reuse or deployment.
